@@ -1,4 +1,26 @@
 body{
     font-family: "Arial Narrow", serif;
-    color: #0000FF
+    color: #0000FF;
+    background-color: blanchedalmond;
+}
+
+.centered-box {
+    position: fixed;      /* Фиксируем элемент */
+    top: 50%;            /* Сдвигаем верх к центру экрана */
+    left: 50%;           /* Сдвигаем левый край к центру */
+    transform: translate(-50%, -50%); /* Сдвигаем обратно на половину своих размеров */
+    width: 900px;        /* Задаем ширину */
+    height: 700px;       /* Задаем высоту */
+    border: 5px solid black; /* Делаем черную рамку */
+    border-radius: 30px; /* Закругляем углы */
+    background-image: url(wind_wall.webp);
+}
+
+.noname {
+    top: 20%;
+    left: 20%;
+    width: 30px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 60px
 }
